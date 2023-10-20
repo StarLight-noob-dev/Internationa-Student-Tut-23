@@ -12,6 +12,8 @@ __author__ = "7727995, Calderon"
 # Download Python:      https://www.python.org/downloads/
 # Settings -> Rulers <"editor.rulers": [100]>
 
+# Stop 65, 80, 100
+
 # What Are Variables In Python?
 
 # A variable is a memory location where you store a value.
@@ -76,7 +78,7 @@ print(num)
 # we use the indexes and square brackets.
 
 name = 'eureka'
-name[2] 
+print(name[2]) 
 #this will give you the output as 'r'
 # Strings are immutable in nature, which means you cannot change a string
 # once replaced. 
