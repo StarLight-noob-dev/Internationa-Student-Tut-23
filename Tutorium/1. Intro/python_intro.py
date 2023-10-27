@@ -50,9 +50,6 @@ y = 124
 # FLOAT (float): is used to represent decimal point values.
 x  = 10.25
 y = 12.30
-k = 0.0
-
-print(type(k))
 
 
 # COMPLEX NUMBERS (complex): are used to represent imaginary values.
