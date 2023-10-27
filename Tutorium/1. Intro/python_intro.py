@@ -1,11 +1,10 @@
-
 __author__ = "7727995, Calderon"
 
 ###########################################################################
 #
 #   Python is a high level language
 #   Dynamically typed: Type checking occurs as code runs (types can change)
-#   
+#
 ###########################################################################
 
 # Download VS Code:     https://code.visualstudio.com/
@@ -51,6 +50,9 @@ y = 124
 # FLOAT (float): is used to represent decimal point values.
 x  = 10.25
 y = 12.30
+k = 0.0
+
+print(type(k))
 
 
 # COMPLEX NUMBERS (complex): are used to represent imaginary values.
@@ -66,6 +68,8 @@ type(num)
 #the output will be bool
 print(num)
 #this will print False.
+True == 1 
+False == 0
 
 
 
@@ -77,8 +81,12 @@ print(num)
 # quotes. To access the values in a string,
 # we use the indexes and square brackets.
 
+#str = ""
+#char = ''
+
+
 name = 'eureka'
-print(name[2]) 
+print(name[2])
 #this will give you the output as 'r'
 # Strings are immutable in nature, which means you cannot change a string
 # once replaced. 
@@ -111,7 +119,7 @@ mytuple = (10,10,20,30,40,50)
 
 mydictionary = { 'python': 'data science', 'machine learning' : 'tensorflow' , 'artificial intelligence': 'keras'}
  
-mydictionary['machine learning']
+print(mydictionary['machine learning'])
  
 #this will give the output as 'tensorflow'
  
@@ -124,4 +132,6 @@ mydictionary.get('python')
 # Get user input
 
 user_answer = input("What is your name?")    # input always return a str. How can we change it?
+user_answer[2:4]
+
 print(f"Hello {user_answer}")
