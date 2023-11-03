@@ -5,8 +5,8 @@ __author__ = "7727995, Calderon"
 # dies von anderen Programmiersprachen?
 #
 # Typisierung -> Regeln zu zuordnung von Konstrukten eines Programm (var, func, Typ)
-#             -> Stark und dynamish 
-#                   -> dynamisch: Type von variable überpruft wären programm ablaufs. 
+#             -> Stark und dynamish
+#                   -> dynamisch: Type von variable überpruft wären programm ablaufs.
 #
 # 2 Worin besteht der Unterschied zwischen einer kompilierten und einer interpretierten
 # Programmiersprache?
@@ -30,9 +30,22 @@ __author__ = "7727995, Calderon"
 #   TypeError:
 #   IndexError:
 #   SyntaxError:
-#   NameError:
+#   NameError: local-global
 #
 
-########################################### EPI ############################################
+########################################### EPR ############################################
 
 # Abgabe Morgen Irgend eine Frage zu blatt 00 oder 01?
+
+# Option 1
+a, b = map(int,input("Bitte geben sie die 'a b':\t").split())
+
+# Option 2
+a = int(input("Bitte geben sie a an: "))
+a = int(input("Bitte geben sie b an: "))
+
+harmo = 2*a*b/(a+b)
+arit = 0.5*(a+b)
+
+print(f"Fas harmonische Mittel von {a} und {b} ist {harmo}")
+print(f"Fas aritmetische Mittel von {a} und {b} ist {arit}")

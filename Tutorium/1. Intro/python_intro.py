@@ -115,13 +115,13 @@ mytuple = (10,10,20,30,40,50)
 # But they have key value pairs
 
 mydictionary = { 'python': 'data science', 'machine learning' : 'tensorflow' , 'artificial intelligence': 'keras'}
- 
+
 print(mydictionary['machine learning'])
- 
+
 #this will give the output as 'tensorflow'
- 
+
 mydictionary.get('python')
- 
+
 #this serves the same purpose to access the value.
 
 
