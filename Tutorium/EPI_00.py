@@ -42,7 +42,7 @@ a, b = map(int,input("Bitte geben sie die 'a b':\t").split())
 
 # Option 2
 a = int(input("Bitte geben sie a an: "))
-a = int(input("Bitte geben sie b an: "))
+b = int(input("Bitte geben sie b an: "))
 
 harmo = 2*a*b/(a+b)
 arit = 0.5*(a+b)
