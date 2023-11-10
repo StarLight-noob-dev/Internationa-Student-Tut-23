@@ -19,7 +19,7 @@ if value_1 <= value_2:
 else:
     smaller_value_1 = value_2
 
-# in form of a conditional expression
+# if form of a conditional expression
 smaller_value_2 = value_1 if value_1 <= value_2 else value_2
 
 # Definition of multiple variables in one line is possibnle
