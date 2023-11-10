@@ -14,6 +14,9 @@ if max_value <= bp_value:
     bp_exam = max_value
 else:
     bp_exam = bp_value
+
+max_points2 = min(max_value, bp_value)
+
 # Output
 # F-String Interpolation and Formatting
 print(f"You have {epr+gpr} bonus points. For this you are gonna recieve {bp_exam} bonus" +

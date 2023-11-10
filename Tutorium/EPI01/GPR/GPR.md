@@ -1,12 +1,12 @@
 ## Concepts
-- terminierend : Does it alwys end?
+- terminierend : Does it always end?
 - determiniert : Same input = Same output always?
 - deterministisch : There is always just one possible path to continue?
 
 ## Aufgabe
 
 #### 1
-- Bewerten Sie die folgende Anleitung zur Herstellung von Toast mit Butter undMarmelade hinsichtlich ihrer 
+- Bewerten Sie die folgende Anleitung zur Herstellung von Toast mit Butter und Marmelade hinsichtlich ihrer 
 algorithmischen Eigenschaften. Untersuchen Sie alle in der Vorlesung angegebenen Eigenschaften eines 
 Algorithmus und erklären Sie, ob die Anleitung diese Eigenschaften erfüllt oder nicht.
 

@@ -14,6 +14,7 @@ elif a > 10:
 
 
 # b)
+
 a = 4,2
 if a > 4:
     print("Die Zahl ist zu groß.")
@@ -27,6 +28,7 @@ else:
 
 
 # c
+
 a = 2
 a = b
 a == 8
@@ -43,6 +45,9 @@ b = 10
 if b:
     print("b gibt True")
 else: print("b gibt False")
+
+# if <condition>:
+#    do_something()
 
 # run:   Ja
 # output:   b gibt True
