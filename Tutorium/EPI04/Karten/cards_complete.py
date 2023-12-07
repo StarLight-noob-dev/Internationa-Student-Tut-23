@@ -1,5 +1,6 @@
-import random
 import cards_basic as cb
+from math import floor as fl
+from random import shuffle
 
 
 def load_players() -> [str]:
@@ -37,11 +38,11 @@ def initialize_variables(players:[str]) -> ({str:int}, {str:list}):
     :return: two dictionaries with the variables
     """
 
-    cardset = cb.create_card_list(10) # Not sure how many cards are supposed to be in the game
+    cardset = cb.create_card_list(4) # Not sure how many cards are supposed to be in the game
 
-    random.shuffle(cardset)
+    shuffle(cardset)
 
-    hands = cb.hand_out_cards(cardset, len(players), 5)  # Also not sure how many cards should be given
+    hands = cb.hand_out_cards(cardset, len(players), fl(len(cardset)/len(players)))  # Also not sure how many cards should be given
 
     score = {x:0 for x in players}
     cards = {x:y for x in players for y in hands}
