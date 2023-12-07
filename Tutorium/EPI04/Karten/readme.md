@@ -1,2 +1,2 @@
-- As mentioned on the code im not going to post the complete solution (because the aufgabe repeats each year)
+- As mentioned on the code im not going to post the complete solution (because the aufgabe kinda repeats each year)
 - we will talk about it on friday and discuss any question that you may have.
