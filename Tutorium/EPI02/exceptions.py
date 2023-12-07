@@ -25,3 +25,5 @@ def treat_exception():
         except ValueError: #Can be used without specification but a good programmer knows what error can appear so we specify :)
             print("Something went wrong probably you gave a number smaller than 5")
     return
+
+treat_exception(
