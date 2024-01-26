@@ -8,7 +8,7 @@ def wichtel_without_dict(n):
     if n==2:
         return 2
     if n==3:
-        return 4
+        return 3
     if n>3:
         return wichtel_without_dict(n-3) + wichtel_without_dict(n-2) + wichtel_without_dict(n-1)
 
@@ -23,7 +23,7 @@ def wichtel_with_dict(n, jumps):
         jumps[n] = ans
     return ans
 
-jump = {1:1,2:2,3:4}
+jump = {1:1,2:2,3:3}
 
 #print(wichtel_without_dict(29))
 #print(wichtel_with_dict(29, jump))
