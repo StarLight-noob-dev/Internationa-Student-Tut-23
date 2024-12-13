@@ -29,12 +29,7 @@ class Cat(Animal):
         print("The cat scratched you")
 
 class Dog(Animal):
-    """
     
-    >>> (x = cat("brandy", 2, "fish")) isinstance Dog # Doesnt work is just an idea of
-    how it could be tested
-    True
-    """
     species = "Canine"
 
     def __init__(self, name, age, food):
